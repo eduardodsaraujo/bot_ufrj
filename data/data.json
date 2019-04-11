@@ -42,11 +42,6 @@
         "entities": []
       },
       {
-        "text": "Qual é o seu nome?",
-        "intent": "apresentacao",
-        "entities": []
-      },
-      {
         "text": "Como é feito o trancamento de matrícula?",
         "intent": "como_trancar_matricula",
         "entities": []

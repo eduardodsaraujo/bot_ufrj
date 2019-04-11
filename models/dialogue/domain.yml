@@ -1,0 +1,264 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- utter_goodbye
+- utter_apresentacao
+- utter_data_colacao_grau
+- utter_fazer_projeto_graduacao
+- utter_pdg
+- utter_pre_requisito_projeto_final
+- utter_pos_defesa_projeto_final
+- utter_roteiro_projeto_final
+- utter_numero_avaliadores_banca
+- utter_bandejao
+- utter_fazer_antes_projeto_graduacao
+- utter_ementa_disciplinas
+- utter_definir_banca_projeto
+- utter_extensao
+- utter_aprender_libras
+- utter_creditos_para_projeto_graduacao
+- utter_localizacao_del
+- utter_melhor_curso
+- utter_formato_projeto_final
+- utter_comissao_projeto_final
+- utter_creditos_disciplina
+- utter_como_conseguir_orientador
+- utter_localizacao_poli
+- utter_como_trancar_matricula
+- utter_anos_estudo_engenharia
+- utter_projetos_graduacao_existentes
+- utter_informacao_colacao
+- utter_disciplinas_obrigatorias
+- utter_recomendacao_professor
+- utter_rcs
+- utter_eventos
+- utter_contato_coordenadores
+- utter_sabe_fazer
+- utter_pre_requisito_disciplina
+- utter_informacao_del
+- utter_proposta_projeto_graduacao
+- utter_inscricao_disciplina
+- utter_informacao_estagio
+- utter_conhecimento_limitado
+- utter_normas_abnt
+- utter_procurar_coordenador
+- utter_antes_defesa_projeto_final
+- utter_quem_pode_orientar
+- utter_trancamento_disciplinas
+- utter_corpo_docente_eletronica
+config:
+  store_entities_as_slots: true
+entities: []
+forms: []
+intents:
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- apresentação:
+    use_entities: true
+- extensao:
+    use_entities: true
+- data_colacao_grau:
+    use_entities: true
+- informacao_colacao:
+    use_entities: true
+- aprender_libras:
+    use_entities: true
+- roteiro_projeto_final:
+    use_entities: true
+- pos_defesa_projeto_final:
+    use_entities: true
+- numero_avaliadores_banca:
+    use_entities: true
+- creditos_disciplina:
+    use_entities: true
+- quem_pode_orientar:
+    use_entities: true
+- projetos_graduacao_existentes:
+    use_entities: true
+- bandejao:
+    use_entities: true
+- contato_coordenadores:
+    use_entities: true
+- rcs:
+    use_entities: true
+- como_conseguir_orientador:
+    use_entities: true
+- fazer_projeto_graduacao:
+    use_entities: true
+- conhecimento_limitado:
+    use_entities: true
+- apresentacao:
+    use_entities: true
+- ementa_disciplinas:
+    use_entities: true
+- anos_estudo_engenharia:
+    use_entities: true
+- informacao_del:
+    use_entities: true
+- antes_defesa_projeto_final:
+    use_entities: true
+- pre_requisito_projeto_final:
+    use_entities: true
+- formato_projeto_final:
+    use_entities: true
+- eventos:
+    use_entities: true
+- creditos_para_projeto_graduacao:
+    use_entities: true
+- normas_abnt:
+    use_entities: true
+- informacao_estagio:
+    use_entities: true
+- localizacao_del:
+    use_entities: true
+- como_trancar_matricula:
+    use_entities: true
+- inscricao_disciplina:
+    use_entities: true
+- sabe_fazer:
+    use_entities: true
+- melhor_curso:
+    use_entities: true
+- proposta_projeto_graduacao:
+    use_entities: true
+- recomendacao_professor:
+    use_entities: true
+- fazer_antes_projeto_graduacao:
+    use_entities: true
+- definir_banca_projeto:
+    use_entities: true
+- comissao_projeto_final:
+    use_entities: true
+- pre_requisito_disciplina:
+    use_entities: true
+- disciplinas_obrigatorias:
+    use_entities: true
+- localizacao_poli:
+    use_entities: true
+- pdg:
+    use_entities: true
+- procurar_coordenador:
+    use_entities: true
+- trancamento_disciplinas:
+    use_entities: true
+- corpo_docente_eletronica:
+    use_entities: true
+slots: {}
+templates:
+  utter_anos_estudo_engenharia:
+  - text: Este tipo de informação sobre uma curso específico pode ser obtido em http://www.poli.ufrj.br/graduacao_cursos.php
+  utter_antes_defesa_projeto_final:
+  - text: Os procedimentos que antes da defesa de PdG estão em https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/norma/
+  utter_aprender_libras:
+  - text: 'O Departamento de Letras possui curso de LIBRAS: http://www.portal.letras.ufrj.br/graduacao/departamentos/departamento-de-libras.html'
+  utter_apresentacao:
+  - text: Meu nome é R.U.R. Sou um robô de auxílio da Poli/UFRJ.
+  utter_bandejao:
+  - text: 'Veja o site do Restaurante Universitário: http://ru.ufrj.br/'
+  utter_comissao_projeto_final:
+  - text: 'Busque algum membro da Comissão de PdG: https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/comissao/'
+  utter_como_conseguir_orientador:
+  - text: 'Consulte a Comissão de Projeto de Graduação: https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/comissao/'
+  utter_como_trancar_matricula:
+  - text: O trancamento de matrícula é feito na secretaria do Departamento.
+  utter_conhecimento_limitado:
+  - text: Meu conhecimento é limitado neste assunto.
+  utter_contato_coordenadores:
+  - text: 'O contato dos coordenadores de curso está disponível no SIGA: http://graduacao.ufrj.br/index.php/ingresso-na-ufrj-mainmenu-81/74-siga/siga/164-siga'
+  utter_corpo_docente_eletronica:
+  - text: Informações sobre o corpo docente do DEL estão disponíveis em https://www.del.ufrj.br/
+  utter_creditos_disciplina:
+  - text: 'As informações sobre créditos deve ser obtida no SIGA: http://graduacao.ufrj.br/index.php/ingresso-na-ufrj-mainmenu-81/74-siga/siga/164-siga'
+  utter_creditos_para_projeto_graduacao:
+  - text: Não é preciso concluir todos os créditos para apresentar o PdG.
+  utter_data_colacao_grau:
+  - text: 'As informações sobre colação de grau podem ser obtidas na página da Escola
+      Politécnica: http://www.poli.ufrj.br/colacao/index.php.'
+  utter_default:
+  - text: Desculpe, eu não entendi, talvez você pudesse refazer a sua pergunta.
+  - text: Desculpe, mas não compreendi.
+  - text: Por gentileza, pode reformular sua pergunta e/ou verificar erros de digitação.
+  utter_definir_banca_projeto:
+  - text: 'As informações sobre pedido de aprovação de banca estão disponíveis na
+      norma de Projeto de Graduação: https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/norma/'
+  utter_disciplinas_obrigatorias:
+  - text: 'Acesse o portal do SIGA para obter informações sobre disciplinas obrigatórias
+      e eletivas: https://portal.ufrj.br/Portal/acesso?cid=27817'
+  utter_ementa_disciplinas:
+  - text: 'Ementas de disciplinas devem ser obtidas no SIGA: http://graduacao.ufrj.br/index.php/ingresso-na-ufrj-mainmenu-81/74-siga/siga/164-siga'
+  utter_eventos:
+  - text: 'Informações sobre eventos são divulgadas na página da Escola Politécnica:
+      http://www.poli.ufrj.br/'
+  utter_extensao:
+  - text: 'Informações sobre extensão podem ser respondidas no site da PR5, Pró Reitoria
+      de Extensão: http://extensao.ufrj.br/index.php.'
+  utter_fazer_antes_projeto_graduacao:
+  - text: Os procedimentos que antes da defesa de PdG estão em https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/norma/
+  utter_fazer_projeto_graduacao:
+  - text: 'Consulte a Comissão de Projeto de Graduação: https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/comissao/'
+  utter_formato_projeto_final:
+  - text: 'O formato do Projeto de Graduação está disponível em: https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/modelos-de-documentos/'
+  utter_goodbye:
+  - text: Tchau
+  - text: Adeus
+  utter_greet:
+  - text: Olá, em que posso ajudar?
+  utter_informacao_colacao:
+  - text: 'As informações sobre colação de grau estão disponíveis na página da Escola
+      Politécnica: http://www.poli.ufrj.br/colacao/index.php'
+  utter_informacao_del:
+  - text: Informações sobre o corpo docente do DEL estão disponíveis em https://www.del.ufrj.br/
+  utter_informacao_estagio:
+  - text: Todas as informações sobre estágio devem ser obtidas Protocolo da Poli,
+      térreo do Bloco A. Você também pode se comunicar com estagio@poli.ufrj.br, ou
+      ainda, visitar http://www.poli.ufrj.br/graduacao_estagio.php .
+  utter_inscricao_disciplina:
+  - text: 'A inscrição de disciplinas é feita através do SIGA: https://intranet.ufrj.br/'
+  utter_localizacao_del:
+  - text: No bloco H, 2o andar da Escola Politécnica.
+  utter_localizacao_poli:
+  - text: Fica no Centro de Tecnologia da UFRJ na Ilha do Fundão (http://www.poli.ufrj.br)
+  utter_melhor_curso:
+  - text: Não existe o melhor curso, existe o curso que mais interessa a você.
+  utter_normas_abnt:
+  - text: 'As normas ABNT estão aqui: http://www.abntcolecao.com.br/UFRJ/    . Porém
+      o material só fica disponível a partir de um computador de dentro da UFRJ.'
+  utter_numero_avaliadores_banca:
+  - text: A banca de defesa de PdG é composta pelo(s) orientador(es) e mais dois (02)
+      avaliadores.
+  utter_pdg:
+  - text: É a sigla para Projeto de Graduação.
+  utter_pos_defesa_projeto_final:
+  - text: Se você já defendeu seu PdG, veja os próximos passos em https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/procedimentos-apos-defesa-de-pdg/view
+  utter_pre_requisito_disciplina:
+  - text: 'Informações sobre pré-requisitos devem ser obtidas no SIGA: http://graduacao.ufrj.br/index.php/ingresso-na-ufrj-mainmenu-81/74-siga/siga/164-siga'
+  utter_pre_requisito_projeto_final:
+  - text: Os procedimentos que antes da defesa de PdG estão em https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/norma/
+  utter_procurar_coordenador:
+  - text: Procure o coordenador de graduação para obter essa informação atualizada.
+  utter_projetos_graduacao_existentes:
+  - text: 'Consulte a Comissão de Projeto de Graduação: https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/comissao/'
+  utter_proposta_projeto_graduacao:
+  - text: 'O modelo de proposta de Projeto de Graduação está disponível em: https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/modelos-de-documentos/'
+  utter_quem_pode_orientar:
+  - text: 'Qualquer professor(a) do Departamento pode ser orientador(a) de Projeto
+      de Graduação. Se você está sendo orientado(a) por um(a) professor(a) externo(a)
+      ao Departamento, então existem duas linhas de ação: (1) o(a) orientador(a) externo(a)
+      deve ter lecionado ao menos 01 disciplina no Departamento nos ultimos 2 semestres,
+      e neste caso OK; (2) a orientação será feita pelo(a) orientador(a) externo(a)
+      e obrigatoriamente com um co-orientador(a) do Departamento.'
+  utter_rcs:
+  - text: 'A emissão do RCS faz parte dos procedimentos após defesa de PdG, veja:
+      https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/procedimentos-apos-defesa-de-pdg/view'
+  utter_recomendacao_professor:
+  - text: Procure seu coordenador para obter este tipo de informação.
+  utter_roteiro_projeto_final:
+  - text: Os procedimentos que antes da defesa de PdG estão em https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/norma/
+  utter_sabe_fazer:
+  - text: Presto informações administrativas sobre os cursos do Departamento.
+  utter_trancamento_disciplinas:
+  - text: Informações sobre trancamento de disciplinas devem ser obtidas na secretaria
+      da Escola Politécnica (http://www.poli.ufrj.br/secretaria.php)

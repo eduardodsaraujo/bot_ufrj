@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/edu/Documentos/tcc/bot_ufrj/./models/nlu/default/bot_ufrj/intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "/home/edu/Documentos/tcc/bot_ufrj/./models/nlu/default/bot_ufrj/intent_classifier_tensorflow_embedding.ckpt"
