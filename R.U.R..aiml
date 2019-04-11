@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.1">
+<category>
+	<pattern>#GREETING</pattern>
+	<template>Olá, em que posso ajudar?</template>
+</category>
+<category>
+	<pattern>#DEFAULT</pattern>
+	<template>
+		<random>
+			<li>Desculpe, mas não compreendi.</li>
+			<li>Desculpe, eu não entendi, talvez você pudesse refazer a sua pergunta.</li>
+			<li>Eu não tenho idéia do que dizer para você, preciso de mais informação.</li>
+			<li>Por gentileza, pode reformular sua pergunta e/ou verificar erros de digitação</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>SE VOCÊ JÁ DEFENDEU SEU PDG VEJA OS PRÓXIMOS PASSOS EM HTTPS://WWW.DEL.UFRJ.BR/ATIVIDADES/GRADUACAO/ELETRONICA-E-COMPUTACAO/PROJETOS-FINAIS/PROCEDIMENTOS-APOS-DEFESA-DE-PDG/VIEW</pattern>
+	<template>Os procedimentos que antes da defesa de PdG estão em https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/norma/</template>
+</category>
+<category>
+	<pattern>É PRECISO TER CONCLUÍDO TODOS OS CRÉDITOS PARA APRESENTAR O PROJETO FINAL</pattern>
+	<template>Não é preciso concluir todos os créditos para apresentar o PdG.</template>
+</category>
+<category>
+	<pattern>O QUE EU PRECISO FAZER PARA ANTES DE COMEÇAR O PROJETO FINAL</pattern>
+	<template>Os procedimentos que antes da defesa de PdG estão em https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/norma/</template>
+</category>
+<category>
+	<pattern>COMO CONSIGO UM ORIENTADOR</pattern>
+	<template>Você deve procurar algum docente com o qual você tenha afinidade e que trabalhe na sua área de interesse.</template>
+</category>
+<category>
+	<pattern>COM QUEM FALAR PARA COMEÇAR A FAZER</pattern>
+	<template>Busque algum membro da Comissãok de PdG: https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/comissao/</template>
+</category>
+<category>
+	<pattern>O QUE É PRECISO FAZER PRA COMEÇAR O PROJETO FINAL</pattern>
+	<template>Os procedimentos que antes da defesa de PdG estão em https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/norma/</template>
+</category>
+<category>
+	<pattern>FLÁVIO MELLO : ROTEIRO PARA A DEFESA DE PROJETO DE GRADUAÇÃO</pattern>
+	<template>Os procedimentos que antes da defesa de PdG estão em https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/norma/</template>
+</category>
+<category>
+	<pattern>FLÁVIO MELLO : QUAIS SÃO OS PROCEDIMENTOS ANTES DA DEFESA DE PDG</pattern>
+	<template>Os procedimentos que antes da defesa de PdG estão em https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/norma/</template>
+</category>
+<category>
+	<pattern>FLÁVIO MELLO : COMO FAÇO PARA DEFENDER O PROJETO DE GRADUAÇÃO</pattern>
+	<template>Os procedimentos que antes da defesa de PdG estão em https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/norma/</template>
+</category>
+<category>
+	<pattern>QUAIS SÃO OS PROCEDIMENTOS ANTES DA DEFESA DE PDG</pattern>
+	<template>Os procedimentos que antes da defesa de PdG estão em https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/norma/</template>
+</category>
+<category>
+	<pattern>ROTEIRO PARA A DEFESA DE PROJETO DE GRADUAÇÃO</pattern>
+	<template>Os procedimentos que antes da defesa de PdG estão em https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/norma/</template>
+</category>
+<category>
+	<pattern>DEFESAS DE PROJETO DE GRADUAÇÃO</pattern>
+	<template>Os procedimentos que antes da defesa de PdG estão em https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/norma/</template>
+</category>
+<category>
+	<pattern>DEFESA DE PDG</pattern>
+	<template>Os procedimentos que antes da defesa de PdG estão em https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/norma/</template>
+</category>
+<category>
+	<pattern>PROCEDIMENTO DE DEFESA</pattern>
+	<template>Os procedimentos que antes da defesa de PdG estão em https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/norma/</template>
+</category>
+<category>
+	<pattern>COMO FAÇO PARA DEFENDER O PROJETO DE GRADUAÇÃO</pattern>
+	<template>Os procedimentos que antes da defesa de PdG estão em https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/norma/</template>
+</category>
+<category>
+	<pattern>COMO É FEITO O TRANCAMENTO DE MATRÍCULA</pattern>
+	<template>Procure a secretaria do curso para mais informações.</template>
+</category>
+<category>
+	<pattern>COMO É FEITO</pattern>
+	<template>Procure a secretaria do curso para mais informações.</template>
+</category>
+<category>
+	<pattern>E ANTES DA DEFESA</pattern>
+	<template>
+		<random>
+			<li>Todos os procedimentos antes da defesa de PdG são resolvidos através do seu orientador. Entre e contato com ele e solicite esclarecimentos sobre como proceder.</li>
+			<li>Desculpe, eu não entendi, talvez você pudesse refazer a sua pergunta.</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>O QUE É EXTENSAO</pattern>
+	<template>Informações sobre extensão podem ser respondidas no site da PR5, Pró Reitoria de Extensão: http://extensao.ufrj.br/index.php</template>
+</category>
+<category>
+	<pattern>INICIAÇÃO CIENTÍFICA</pattern>
+	<template>Procure o coordenador de graduação para obter essa informação atualizada.</template>
+</category>
+<category>
+	<pattern>O QUE É PDG</pattern>
+	<template>É a sigla para Projeto de Graduação.</template>
+</category>
+<category>
+	<pattern>QUANTAS HORAS DE ESTÁGIO OBRIGATÓRIO DEVO CUMPRIR</pattern>
+	<template>Todas as informações sobre estágio devem ser obtidas Protocolo da Poli, térreo do Bloco A. Você também pode se comunicar com estagio@poli.ufrj.br, ou ainda, visitar http://www.poli.ufrj.br/graduacao_estagio.php .</template>
+</category>
+<category>
+	<pattern>QUAL É O PRÓXIMO EVENTO ACADÊMICO</pattern>
+	<template>Informações sobre eventos são divulgadas na página da Escola Politécnica: http://www.poli.ufrj.br/</template>
+</category>
+<category>
+	<pattern>VOCÊ SABE SOBRE EVENTOS ACADÊMICOS</pattern>
+	<template>Informações sobre eventos são divulgadas na página da Escola Politécnica: http://www.poli.ufrj.br/</template>
+</category>
+<category>
+	<pattern>QUANDO É A SEMANA DA ELETRONICA</pattern>
+	<template>Informações sobre eventos são divulgadas na página da Escola Politécnica: http://www.poli.ufrj.br/</template>
+</category>
+<category>
+	<pattern>QUAL A AGENDA DE EVENTOS</pattern>
+	<template>Informações sobre eventos são divulgadas na página da Escola Politécnica: http://www.poli.ufrj.br/</template>
+</category>
+<category>
+	<pattern>QUAIS EVENTOS VÃO ACONTECER NO CENTRO DE TECNOLOGIA</pattern>
+	<template>Informações sobre eventos são divulgadas na página da Escola Politécnica: http://www.poli.ufrj.br/</template>
+</category>
+<category>
+	<pattern>QUANTAS VAGAS O CURSO OFERECE</pattern>
+	<template>Procure o coordenador de graduação para obter essa informação atualizada.</template>
+</category>
+<category>
+	<pattern>QUAL A NOTA DO ENEM PARA ENTRAR NO CURSO</pattern>
+	<template>Procure o coordenador de graduação para obter essa informação atualizada.</template>
+</category>
+<category>
+	<pattern>ONDE SE LOCALIZA O DEPARTAMENTO DE ENGENHARIA ELETRÔNICA</pattern>
+	<template>No bloco H, 2o andar da Escola Politécnica.</template>
+</category>
+<category>
+	<pattern>O QUE É EXTENSÃO UNIVERSITÁRIA</pattern>
+	<template>Informações sobre extensão podem ser respondidas no site da PR5, Pró Reitoria de Extensão: http://extensao.ufrj.br/index.php</template>
+</category>
+<category>
+	<pattern>O QUE É A EXTENSÃO UNIVERSITARIA</pattern>
+	<template>Informações sobre extensão podem ser respondidas no site da PR5, Pró Reitoria de Extensão: http://extensao.ufrj.br/index.php</template>
+</category>
+<category>
+	<pattern>O QUE É EXTENSÃO</pattern>
+	<template>Informações sobre extensão podem ser respondidas no site da PR5, Pró Reitoria de Extensão: http://extensao.ufrj.br/index.php</template>
+</category>
+<category>
+	<pattern>QUAIS AS MODALIDADES DE BOLSAS EXISTENTES</pattern>
+	<template>Procure o coordenador de graduação para obter essa informação atualizada.</template>
+</category>
+<category>
+	<pattern>O QUE É INICIAÇÃO CIENTIFICA</pattern>
+	<template>Procure o coordenador de graduação para obter essa informação atualizada.</template>
+</category>
+<category>
+	<pattern>ONDE PROCURAR UMA IC</pattern>
+	<template>Procure o coordenador de graduação para obter essa informação atualizada.</template>
+</category>
+<category>
+	<pattern>QUAIS SAO OS REQUISITOS PARA ESTÁGIO NÃO OBRIGATÓRIO</pattern>
+	<template>Todas as informações sobre estágio devem ser obtidas Protocolo da Poli, térreo do Bloco A. Você também pode se comunicar com estagio@poli.ufrj.br, ou ainda, visitar http://www.poli.ufrj.br/graduacao_estagio.php .</template>
+</category>
+<category>
+	<pattern>QUAL É A INTEGRAL INDEFINIDA DE X</pattern>
+	<template>Meu conhecimento é limitado neste assunto.</template>
+</category>
+<category>
+	<pattern>QUEM SÃO OS REPRESENTARES DISCENTES DE ENGENHARIA ELETRÔNICA</pattern>
+	<template>Procure o coordenador de graduação para obter essa informação atualizada.</template>
+</category>
+<category>
+	<pattern>QUAL É CONTATO DO COORDENADOR ?</pattern>
+	<template>O contato dos coordenadores de curso está disponível no SIGA: http://graduacao.ufrj.br/index.php/ingresso-na-ufrj-mainmenu-81/74-siga/siga/164-siga</template>
+</category>
+<category>
+	<pattern>QUAL É O MELHOR CURSO DA UFRJ</pattern>
+	<template>O melhor curso da UFRJ é algo subjetivo, eu por exemplo gosto dos cursos de Computação.</template>
+</category>
+<category>
+	<pattern>COMO COMEÇAR O PROCESSO DE COLAÇÃO DE GRAU</pattern>
+	<template>As informações sobre colação de grau estão disponíveis na página da Escola Politécnica: http://www.poli.ufrj.br/colacao/index.php</template>
+</category>
+<category>
+	<pattern>QUAL É O COPO DOCENTE DO DEPARTAMENTO DE ELETRONICA</pattern>
+	<template>Informações sobre o corpo docente do DEL estão disponíveis em https://www.del.ufrj.br/</template>
+</category>
+<category>
+	<pattern>PROGRAMAS DE ESTÁGIO</pattern>
+	<template>Todas as informações sobre estágio devem ser obtidas Protocolo da Poli, térreo do Bloco A. Você também pode se comunicar com estagio@poli.ufrj.br, ou ainda, visitar http://www.poli.ufrj.br/graduacao_estagio.php .</template>
+</category>
+<category>
+	<pattern>ONDE FICA A POLI</pattern>
+	<template>Fica no Centro de Tecnologia da UFRJ na Ilha do Fundão (http://www.poli.ufrj.br)</template>
+</category>
+<category>
+	<pattern>POSSO TRANCAR MATÉRIAS AINDA</pattern>
+	<template>Informações sobre trancamento de disciplinas devem ser obtidas na secretaria da Escola Politécnica (http://www.poli.ufrj.br/secretaria.php)</template>
+</category>
+<category>
+	<pattern>QUAIS SÃO OS PASSOS A SEREM TOMADOS APÓS A DEFESA DO PROJETO DE GRADUAÇÃO</pattern>
+	<template>Se você já defendeu seu PdG, veja os próximos passos em https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/procedimentos-apos-defesa-de-pdg/view</template>
+</category>
+<category>
+	<pattern>O QUE FAZER APÓS A DEFESA DO PDG</pattern>
+	<template>O roteiro pós defesa de Projeto de Graduação está disponível em https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/calendario/</template>
+</category>
+<category>
+	<pattern>DEPOIS DA DEFESA DO PDG</pattern>
+	<template>O roteiro pós defesa de Projeto de Graduação está disponível em https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/calendario/</template>
+</category>
+<category>
+	<pattern>APÓS A DEFESA</pattern>
+	<template>O roteiro pós defesa de Projeto de Graduação está disponível em https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/calendario/</template>
+</category>
+<category>
+	<pattern>ACABEI DE DEFENDER</pattern>
+	<template>Não entendi o que deseja, por favor forneça mais detalhes.</template>
+</category>
+<category>
+	<pattern>A BANCA DE DEFESA DE PDG É COMPOSTA PELO ( S ) ORIENTADOR ( ES ) E MAIS DOIS ( 02 ) AVALIADORES</pattern>
+	<template>As informações sobre pedido de aprovação de banca estão disponíveis na norma de Projeto de Graduação: https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/norma/</template>
+</category>
+<category>
+	<pattern>ESCOLHER A BANCA</pattern>
+	<template>As informações sobre pedido de aprovação de banca estão disponíveis na norma de Projeto de Graduação: https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/norma/</template>
+</category>
+<category>
+	<pattern>QUANTOS AVALIADORES</pattern>
+	<template>A banca de defesa de PdG é composta pelo(s) orientador(es) e mais dois (02) avaliadores.</template>
+</category>
+<category>
+	<pattern>POSSO CHAMAR ALGUÉM DE FORA</pattern>
+	<template>As informações sobre pedido de aprovação de banca estão disponíveis na norma de Projeto de Graduação: https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/norma/</template>
+</category>
+<category>
+	<pattern>BANCA</pattern>
+	<template>As informações sobre pedido de aprovação de banca estão disponíveis na norma de Projeto de Graduação: https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/norma/</template>
+</category>
+<category>
+	<pattern>MEMBRO EXTERNO</pattern>
+	<template>As informações sobre pedido de aprovação de banca estão disponíveis na norma de Projeto de Graduação: https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/norma/</template>
+</category>
+<category>
+	<pattern>AVALIADOR EXTERNO</pattern>
+	<template>As informações sobre pedido de aprovação de banca estão disponíveis na norma de Projeto de Graduação: https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/norma/</template>
+</category>
+<category>
+	<pattern>AVALIADORES</pattern>
+	<template>As informações sobre pedido de aprovação de banca estão disponíveis na norma de Projeto de Graduação: https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/norma/</template>
+</category>
+<category>
+	<pattern>A BANCA DEVE SER COMPOSTA POR QUANTOS MEMBROS</pattern>
+	<template>A banca de defesa de PdG é composta pelo(s) orientador(es) e mais dois (02) avaliadores.</template>
+</category>
+<category>
+	<pattern>PROCEDIMENTO PÓS DEFESA GRADUAÇÃO</pattern>
+	<template>O roteiro pós defesa de Projeto de Graduação está disponível em https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/calendario/</template>
+</category>
+<category>
+	<pattern>PÓS DEFESA DE PDG</pattern>
+	<template>Para obter o nada consta, veja o roteiro de procedimentos após defesa de PdG: https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/procedimentos-apos-defesa-de-pdg/view</template>
+</category>
+<category>
+	<pattern>RCS</pattern>
+	<template>A emissão do RCS faz parte dos procedimentos após defesa de PdG, veja: https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/procedimentos-apos-defesa-de-pdg/view</template>
+</category>
+<category>
+	<pattern>QUAIS AS MATÉRIAS OBRIGATÓRIAS DE ENGENHARIA ELETRÔNICA</pattern>
+	<template>Acesse o portal do SIGA para obter informações sobre disciplinas obrigatórias e eletivas: https://portal.ufrj.br/Portal/acesso?cid=27817</template>
+</category>
+<category>
+	<pattern>QUAL É A EMENTA DE CÁLCULO 1</pattern>
+	<template>Ementas de disciplinas devem ser obtidas no SIGA: http://graduacao.ufrj.br/index.php/ingresso-na-ufrj-mainmenu-81/74-siga/siga/164-siga</template>
+</category>
+<category>
+	<pattern>ADEUS</pattern>
+	<template>Adeus</template>
+</category>
+<category>
+	<pattern>TCHAU</pattern>
+	<template>Tchau</template>
+</category>
+<category>
+	<pattern>COMO FAZER O PEDIDO DE APROVAÇÃO DE BANCA</pattern>
+	<template>As informações sobre pedido de aprovação de banca estão disponíveis na norma de Projeto de Graduação: https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/norma/</template>
+</category>
+<category>
+	<pattern>PEDIDO DE APROVAÇÃO DE BANCA</pattern>
+	<template>As informações sobre pedido de aprovação de banca estão disponíveis na norma de Projeto de Graduação: https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/norma/</template>
+</category>
+<category>
+	<pattern>ONDE POSSO VER A EMENTA DE UMA DISCIPLINA</pattern>
+	<template>Acesse o portal do SIGA para obter informações sobre ementa de disciplinas: https://portal.ufrj.br/Portal/acesso?cid=27817</template>
+</category>
+<category>
+	<pattern>COMO FUNCIONA O ESTÁGIO NÃO OBRIGATÓRIO</pattern>
+	<template>Veja as orientações sobre estágio em: http://www.poli.ufrj.br/graduacao_estagio.php</template>
+</category>
+<category>
+	<pattern>EXISTE ALGUM PRÉ-REQUISITO PARA APRESENTAR O PROJETO</pattern>
+	<template>A apresentação do Projeto de Graduação é regulada diretamente pelo orientador.</template>
+</category>
+<category>
+	<pattern>COMO POSSO INSCREVER MEU PROJETO DE GRADUAÇÃO ?</pattern>
+	<template>Entre em contato com a Comissão de Projeto de Graduação: https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/comissao/</template>
+</category>
+<category>
+	<pattern>COMO DEVO INSCREVER MEU PROJETO</pattern>
+	<template>Entre em contato com a Comissão de Projeto de Graduação: https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/comissao/</template>
+</category>
+<category>
+	<pattern>QUAL O FORMATO PARA O PROJETO FINAL</pattern>
+	<template>O formato do Projeto de Graduação está disponível em: https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/modelos-de-documentos/</template>
+</category>
+<category>
+	<pattern>COMO DEVE SER FEITA A PROPOSTA</pattern>
+	<template>O modelo de proposta de Projeto de Graduação está disponível em: https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/modelos-de-documentos/</template>
+</category>
+<category>
+	<pattern>ONDE POSSO APRENDER LIBRAS</pattern>
+	<template>O Departamento de Letras possui curso de LIBRAS: http://www.portal.letras.ufrj.br/graduacao/departamentos/departamento-de-libras.html</template>
+</category>
+<category>
+	<pattern>COMO OFICIALIZAR A BANCA DO PROJETO</pattern>
+	<template>Veja as Normas de Projeto de Graduação: https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/norma/</template>
+</category>
+<category>
+	<pattern>BANDEJÃO</pattern>
+	<template>Veja o site do Restaurante Universitário: http://ru.ufrj.br/</template>
+</category>
+<category>
+	<pattern>COMO USAR O BANDEJÃO</pattern>
+	<template>Veja o site do Restaurante Universitário: http://ru.ufrj.br/</template>
+</category>
+<category>
+	<pattern>COMO ESCOLHER UM TEMA PARA PROJETO DE GRADUAÇÃO</pattern>
+	<template>Consulte a Comissão de Projeto de Graduação: https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/comissao/</template>
+</category>
+<category>
+	<pattern>COMO SE INSCREVER EM DISCIPLINAS</pattern>
+	<template>A inscrição de disciplinas é feita através do SIGA: https://intranet.ufrj.br/</template>
+</category>
+<category>
+	<pattern>ESCOLHA ORIENTADOR</pattern>
+	<template>Consulte a Comissão de Projeto de Graduação: https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/comissao/</template>
+</category>
+<category>
+	<pattern>COMO ESCOLHER ORIENTADOR</pattern>
+	<template>Consulte a Comissão de Projeto de Graduação: https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/comissao/</template>
+</category>
+<category>
+	<pattern>COMO FAZER PROJETO DE GRADUAÇÃO</pattern>
+	<template>Consulte a Comissão de Projeto de Graduação: https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/comissao/</template>
+</category>
+<category>
+	<pattern>O QUE VOCÊ SABE FAZER</pattern>
+	<template>Presto informações administrativas sobre os cursos do Departamento.</template>
+</category>
+<category>
+	<pattern>QUANTOS CRÉDITOS TEM CÁLCULO 2</pattern>
+	<template>As informações sobre créditos deve ser obtida no SIGA: http://graduacao.ufrj.br/index.php/ingresso-na-ufrj-mainmenu-81/74-siga/siga/164-siga</template>
+</category>
+<category>
+	<pattern>RECOMENDA ALGUM PROFESSOR</pattern>
+	<template>Procure seu coordenador para obter este tipo de informação.</template>
+</category>
+<category>
+	<pattern>QUEM PODE ME ORIENTAR SOBRE O PROJETO DE GRADUAÇÃO</pattern>
+	<template>Qualquer professor(a) do Departamento pode ser orientador(a) de Projeto de Graduação. Se você está sendo orientado(a) por um(a) professor(a) externo(a) ao Departamento, então existem duas linhas de ação: (1) o(a) orientador(a) externo(a) deve ter lecionado ao menos 01 disciplina no Departamento nos ultimos 2 semestres, e neste caso OK; (2) a orientação será feita pelo(a) orientador(a) externo(a) e obrigatoriamente com um co-orientador(a) do Departamento.</template>
+</category>
+<category>
+	<pattern>QUAIS PROJETOS DE GRADUAÇÃO EXISTEM HOJE</pattern>
+	<template>Consulte a Comissão de Projeto de Graduação: https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/comissao/</template>
+</category>
+<category>
+	<pattern>QUE PROJETOS EXISTEM A DISPOSIÇÃO</pattern>
+	<template>Consulte a Comissão de Projeto de Graduação: https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/comissao/</template>
+</category>
+<category>
+	<pattern>QUANDO FECHA O PERÍODO DE TRANCAMENTO</pattern>
+	<template>O trancamento de matrícula é feito na secretaria do Departamento.</template>
+</category>
+<category>
+	<pattern>QUAL PRÉ REQUISITO DE ELETRÔNICA 2</pattern>
+	<template>Informações sobre pré-requisitos devem ser obtidas no SIGA: http://graduacao.ufrj.br/index.php/ingresso-na-ufrj-mainmenu-81/74-siga/siga/164-siga</template>
+</category>
+<category>
+	<pattern>QUANTOS ANOS DEVO ESTUDAR ENGENHARIA</pattern>
+	<template>Este tipo de informação sobre uma curso específico pode ser obtido em http://www.poli.ufrj.br/graduacao_cursos.php</template>
+</category>
+<category>
+	<pattern>BELEZA</pattern>
+	<template>Olá</template>
+</category>
+<category>
+	<pattern>FALA AI</pattern>
+	<template>Olá</template>
+</category>
+<category>
+	<pattern>COE</pattern>
+	<template>Olá</template>
+</category>
+<category>
+	<pattern>QUAL É O MELHOR CURSO</pattern>
+	<template>Não existe o melhor curso, existe o curso que mais interessa a você.</template>
+</category>
+<category>
+	<pattern>NORMAS ABNT</pattern>
+	<template>As normas ABNT estão aqui: http://www.abntcolecao.com.br/UFRJ/    . Porém o material só fica disponível a partir de um computador de dentro da UFRJ.</template>
+</category>
+<category>
+	<pattern>QUAIS AS NORMAS DA ABNT QUE DEVO USAR</pattern>
+	<template>As normas ABNT estão aqui: http://www.abntcolecao.com.br/UFRJ/    . Porém o material só fica disponível a partir de um computador de dentro da UFRJ.</template>
+</category>
+</aiml>
