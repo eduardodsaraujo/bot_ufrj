@@ -6,3 +6,8 @@ pipeline:
 
 - name: "intent_classifier_tensorflow_embedding"
   intent_tokenization_flag: true
+
+policies:
+  - name: MemoizationPolicy
+  - name: KerasPolicy
+  - name: MappingPolicy
