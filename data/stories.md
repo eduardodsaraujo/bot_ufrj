@@ -320,12 +320,8 @@
     - utter_creditos_para_projeto_graduacao
     - action_restart
 
-## Generated Story 0
-
 ## Generated Story 1349552574155728585
 * localizacao_del
     - utter_localizacao_del
     - action_restart
-
-## Generated Story 0
 

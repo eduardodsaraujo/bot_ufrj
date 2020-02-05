@@ -1,7 +1,7 @@
 intents:
  - greet
  - goodbye
- - apresentação
+ - apresentacao
  - extensao
  - data_colacao_grau
  - informacao_colacao
@@ -18,7 +18,6 @@ intents:
  - como_conseguir_orientador
  - fazer_projeto_graduacao
  - conhecimento_limitado
- - apresentacao
  - ementa_disciplinas
  - anos_estudo_engenharia
  - informacao_del
