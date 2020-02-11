@@ -1,6 +1,11 @@
 intents:
- - greet
- - goodbye
+ - saudacao
+ - despedida
+ - despedida_precoce
+ - agradecimento
+ - insulto:
+    triggers: utter_insulto
+ - entendimento
  - apresentacao
  - extensao
  - data_colacao_grau
@@ -48,106 +53,120 @@ intents:
  
 
 templates:
-  utter_greet:
-    - 'Olá, em que posso ajudar?'
-  utter_goodbye:
-    - 'Tchau'
-    - 'Adeus'
+  utter_saudacao:
+    - text: 'Olá, em que posso ajudar?'
+  utter_despedida:
+    - text: 'Tchau'
+    - text: 'Adeus'
+  utter_despedida_precoce:
+    - text: 'Já vai embora? Não tem nenhuma dúvida?'
+  utter_agradecimento:
+    - text: 'Não há de que, estou aqui se ainda tiver dúvidas.'
+    - text: 'De nada.'
+    - text: 'Por nada.'
+    - text: 'Estou à disposição.'
+  utter_insulto:
+    - text: 'Isso não é legal.'
+    - text: 'Por favor, sejamos educados.'
   utter_default:
-    - 'Desculpe, eu não entendi, talvez você pudesse refazer a sua pergunta.'
-    - 'Desculpe, mas não compreendi.'
-    - 'Por gentileza, pode reformular sua pergunta e/ou verificar erros de digitação.'
+    - text: 'Desculpe, eu não entendi, talvez você pudesse refazer a sua pergunta.'
+    - text: 'Desculpe, mas não compreendi.'
+    - text: 'Por gentileza, pode reformular sua pergunta e/ou verificar erros de digitação.'
   utter_apresentacao:
-    - 'Meu nome é R.U.R. Sou um robô de auxílio da Poli/UFRJ.'
+    - text: 'Meu nome é R.U.R. Sou um robô de auxílio da Poli/UFRJ.'
   utter_como_trancar_matricula:
-    - 'O trancamento de matrícula é feito na secretaria do Departamento.'
+    - text: 'O trancamento de matrícula é feito na secretaria do Departamento.'
   utter_extensao:
-    - 'Informações sobre extensão podem ser respondidas no site da PR5, Pró Reitoria de Extensão: http://extensao.ufrj.br/index.php.'
+    - text: 'Informações sobre extensão podem ser respondidas no site da PR5, Pró Reitoria de Extensão: http://extensao.ufrj.br/index.php.'
   utter_data_colacao_grau:
-    - 'As informações sobre colação de grau podem ser obtidas na página da Escola Politécnica: http://www.poli.ufrj.br/colacao/index.php.'
+    - text: 'As informações sobre colação de grau podem ser obtidas na página da Escola Politécnica: http://www.poli.ufrj.br/colacao/index.php.'
   utter_proposta_projeto_graduacao:
-    - 'O modelo de proposta de Projeto de Graduação está disponível em: https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/modelos-de-documentos/'
+    - text: 'O modelo de proposta de Projeto de Graduação está disponível em: https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/modelos-de-documentos/'
   utter_pre_requisito_projeto_final:
-    - 'Os procedimentos que antes da defesa de PdG estão em https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/norma/'
+    - text: 'Os procedimentos que antes da defesa de PdG estão em https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/norma/'
   utter_normas_abnt:
-    - 'As normas ABNT estão aqui: http://www.abntcolecao.com.br/UFRJ/    . Porém o material só fica disponível a partir de um computador de dentro da UFRJ.'
+    - text: 'As normas ABNT estão aqui: http://www.abntcolecao.com.br/UFRJ/    . Porém o material só fica disponível a partir de um computador de dentro da UFRJ.'
   utter_procurar_coordenador:
-    - 'Procure o coordenador de graduação para obter essa informação atualizada.'
+    - text: 'Procure o coordenador de graduação para obter essa informação atualizada.'
   utter_informacao_estagio:
-    - 'Todas as informações sobre estágio devem ser obtidas Protocolo da Poli, térreo do Bloco A. Você também pode se comunicar com estagio@poli.ufrj.br, ou ainda, visitar http://www.poli.ufrj.br/graduacao_estagio.php .'
+    - text: 'Todas as informações sobre estágio devem ser obtidas Protocolo da Poli, térreo do Bloco A. Você também pode se comunicar com estagio@poli.ufrj.br, ou ainda, visitar http://www.poli.ufrj.br/graduacao_estagio.php .'
   utter_numero_avaliadores_banca:
-    - 'A banca de defesa de PdG é composta pelo(s) orientador(es) e mais dois (02) avaliadores.'
+    - text: 'A banca de defesa de PdG é composta pelo(s) orientador(es) e mais dois (02) avaliadores.'
   utter_creditos_para_projeto_graduacao:
-    - 'Não é preciso concluir todos os créditos para apresentar o PdG.'
+    - text: 'Não é preciso concluir todos os créditos para apresentar o PdG.'
   utter_eventos:
-    - 'Informações sobre eventos são divulgadas na página da Escola Politécnica: http://www.poli.ufrj.br/'
+    - text: 'Informações sobre eventos são divulgadas na página da Escola Politécnica: http://www.poli.ufrj.br/'
   utter_sabe_fazer:
-    - 'Presto informações administrativas sobre os cursos do Departamento.'
+    - text: 'Presto informações administrativas sobre os cursos do Departamento.'
   utter_disciplinas_obrigatorias:
-    - 'Acesse o portal do SIGA para obter informações sobre disciplinas obrigatórias e eletivas: https://portal.ufrj.br/Portal/acesso?cid=27817'
+    - text: 'Acesse o portal do SIGA para obter informações sobre disciplinas obrigatórias e eletivas: https://portal.ufrj.br/Portal/acesso?cid=27817'
   utter_rcs:
-    - 'A emissão do RCS faz parte dos procedimentos após defesa de PdG, veja: https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/procedimentos-apos-defesa-de-pdg/view'
+    - text: 'A emissão do RCS faz parte dos procedimentos após defesa de PdG, veja: https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/procedimentos-apos-defesa-de-pdg/view'
   utter_informacao_del:
-    - 'Informações sobre o corpo docente do DEL estão disponíveis em https://www.del.ufrj.br/'
+    - text: 'Informações sobre o corpo docente do DEL estão disponíveis em https://www.del.ufrj.br/'
   utter_aprender_libras:
-    - 'O Departamento de Letras possui curso de LIBRAS: http://www.portal.letras.ufrj.br/graduacao/departamentos/departamento-de-libras.html'
+    - text: 'O Departamento de Letras possui curso de LIBRAS: http://www.portal.letras.ufrj.br/graduacao/departamentos/departamento-de-libras.html'
   utter_fazer_projeto_graduacao:
-    - 'Consulte a Comissão de Projeto de Graduação: https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/comissao/'
+    - text: 'Consulte a Comissão de Projeto de Graduação: https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/comissao/'
   utter_projetos_graduacao_existentes:
-    - 'Consulte a Comissão de Projeto de Graduação: https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/comissao/'
+    - text: 'Consulte a Comissão de Projeto de Graduação: https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/comissao/'
   utter_definir_banca_projeto:
-    - 'As informações sobre pedido de aprovação de banca estão disponíveis na norma de Projeto de Graduação: https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/norma/'
+    - text: 'As informações sobre pedido de aprovação de banca estão disponíveis na norma de Projeto de Graduação: https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/norma/'
   utter_roteiro_projeto_final:
-    - 'Os procedimentos que antes da defesa de PdG estão em https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/norma/'
+    - text: 'Os procedimentos que antes da defesa de PdG estão em https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/norma/'
   utter_pre_requisito_disciplina:
-    - 'Informações sobre pré-requisitos devem ser obtidas no SIGA: http://graduacao.ufrj.br/index.php/ingresso-na-ufrj-mainmenu-81/74-siga/siga/164-siga'
+    - text: 'Informações sobre pré-requisitos devem ser obtidas no SIGA: http://graduacao.ufrj.br/index.php/ingresso-na-ufrj-mainmenu-81/74-siga/siga/164-siga'
   utter_ementa_disciplinas:
-    - 'Ementas de disciplinas devem ser obtidas no SIGA: http://graduacao.ufrj.br/index.php/ingresso-na-ufrj-mainmenu-81/74-siga/siga/164-siga'
+    - text: 'Ementas de disciplinas devem ser obtidas no SIGA: http://graduacao.ufrj.br/index.php/ingresso-na-ufrj-mainmenu-81/74-siga/siga/164-siga'
   utter_contato_coordenadores:
-    - 'O contato dos coordenadores de curso está disponível no SIGA: http://graduacao.ufrj.br/index.php/ingresso-na-ufrj-mainmenu-81/74-siga/siga/164-siga'
+    - text: 'O contato dos coordenadores de curso está disponível no SIGA: http://graduacao.ufrj.br/index.php/ingresso-na-ufrj-mainmenu-81/74-siga/siga/164-siga'
   utter_bandejao:
-    - 'Veja o site do Restaurante Universitário: http://ru.ufrj.br/'
+    - text: 'Veja o site do Restaurante Universitário: http://ru.ufrj.br/'
   utter_melhor_curso:
-    - 'Não existe o melhor curso, existe o curso que mais interessa a você.'
+    - text: 'Não existe o melhor curso, existe o curso que mais interessa a você.'
   utter_formato_projeto_final:
-    - 'O formato do Projeto de Graduação está disponível em: https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/modelos-de-documentos/'
+    - text: 'O formato do Projeto de Graduação está disponível em: https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/modelos-de-documentos/'
   utter_como_conseguir_orientador:
-    - 'Consulte a Comissão de Projeto de Graduação: https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/comissao/'
+    - text: 'Consulte a Comissão de Projeto de Graduação: https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/comissao/'
   utter_informacao_colacao:
-    - 'As informações sobre colação de grau estão disponíveis na página da Escola Politécnica: http://www.poli.ufrj.br/colacao/index.php'
+    - text: 'As informações sobre colação de grau estão disponíveis na página da Escola Politécnica: http://www.poli.ufrj.br/colacao/index.php'
   utter_localizacao_del:
-    - 'No bloco H, 2o andar da Escola Politécnica.'
+    - text: 'No bloco H, 2o andar da Escola Politécnica.'
   utter_anos_estudo_engenharia:
-    - 'Este tipo de informação sobre uma curso específico pode ser obtido em http://www.poli.ufrj.br/graduacao_cursos.php'
+    - text: 'Este tipo de informação sobre uma curso específico pode ser obtido em http://www.poli.ufrj.br/graduacao_cursos.php'
   utter_conhecimento_limitado:
-    - 'Meu conhecimento é limitado neste assunto.'
+    - text: 'Meu conhecimento é limitado neste assunto.'
   utter_pdg:
-    - 'É a sigla para Projeto de Graduação.'
+    - text: 'É a sigla para Projeto de Graduação.'
   utter_comissao_projeto_final:
-    - 'Busque algum membro da Comissão de PdG: https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/comissao/'
+    - text: 'Busque algum membro da Comissão de PdG: https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/comissao/'
   utter_antes_defesa_projeto_final:
-    - 'Os procedimentos que antes da defesa de PdG estão em https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/norma/'
+    - text: 'Os procedimentos que antes da defesa de PdG estão em https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/norma/'
   utter_recomendacao_professor:
-    - 'Procure seu coordenador para obter este tipo de informação.'
+    - text: 'Procure seu coordenador para obter este tipo de informação.'
   utter_creditos_disciplina:
-    - 'As informações sobre créditos deve ser obtida no SIGA: http://graduacao.ufrj.br/index.php/ingresso-na-ufrj-mainmenu-81/74-siga/siga/164-siga'
+    - text: 'As informações sobre créditos deve ser obtida no SIGA: http://graduacao.ufrj.br/index.php/ingresso-na-ufrj-mainmenu-81/74-siga/siga/164-siga'
   utter_localizacao_poli:
-    - 'Fica no Centro de Tecnologia da UFRJ na Ilha do Fundão (http://www.poli.ufrj.br)'
+    - text: 'Fica no Centro de Tecnologia da UFRJ na Ilha do Fundão (http://www.poli.ufrj.br)'
   utter_pos_defesa_projeto_final:
-    - 'Se você já defendeu seu PdG, veja os próximos passos em https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/procedimentos-apos-defesa-de-pdg/view'
+    - text: 'Se você já defendeu seu PdG, veja os próximos passos em https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/procedimentos-apos-defesa-de-pdg/view'
   utter_inscricao_disciplina:
-    - 'A inscrição de disciplinas é feita através do SIGA: https://intranet.ufrj.br/'
+    - text: 'A inscrição de disciplinas é feita através do SIGA: https://intranet.ufrj.br/'
   utter_fazer_antes_projeto_graduacao:
-    - 'Os procedimentos que antes da defesa de PdG estão em https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/norma/'
+    - text: 'Os procedimentos que antes da defesa de PdG estão em https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/norma/'
   utter_quem_pode_orientar:
-    - 'Qualquer professor(a) do Departamento pode ser orientador(a) de Projeto de Graduação. Se você está sendo orientado(a) por um(a) professor(a) externo(a) ao Departamento, então existem duas linhas de ação: (1) o(a) orientador(a) externo(a) deve ter lecionado ao menos 01 disciplina no Departamento nos ultimos 2 semestres, e neste caso OK; (2) a orientação será feita pelo(a) orientador(a) externo(a) e obrigatoriamente com um co-orientador(a) do Departamento.'
+    - text: 'Qualquer professor(a) do Departamento pode ser orientador(a) de Projeto de Graduação. Se você está sendo orientado(a) por um(a) professor(a) externo(a) ao Departamento, então existem duas linhas de ação: (1) o(a) orientador(a) externo(a) deve ter lecionado ao menos 01 disciplina no Departamento nos ultimos 2 semestres, e neste caso OK; (2) a orientação será feita pelo(a) orientador(a) externo(a) e obrigatoriamente com um co-orientador(a) do Departamento.'
   utter_trancamento_disciplinas:
-    - 'Informações sobre trancamento de disciplinas devem ser obtidas na secretaria da Escola Politécnica (http://www.poli.ufrj.br/secretaria.php)'
+    - text: 'Informações sobre trancamento de disciplinas devem ser obtidas na secretaria da Escola Politécnica (http://www.poli.ufrj.br/secretaria.php)'
   utter_corpo_docente_eletronica:
-    - 'Informações sobre o corpo docente do DEL estão disponíveis em https://www.del.ufrj.br/'
+    - text: 'Informações sobre o corpo docente do DEL estão disponíveis em https://www.del.ufrj.br/'
 actions:
- - utter_greet
- - utter_goodbye
+ - utter_saudacao
+ - utter_despedida
+ - utter_despedida_precoce
+ - utter_agradecimento
+ - utter_insulto
+ - utter_entendimento
  - utter_apresentacao
  - utter_data_colacao_grau
  - utter_fazer_projeto_graduacao
@@ -192,3 +211,4 @@ actions:
  - utter_quem_pode_orientar
  - utter_trancamento_disciplinas
  - utter_corpo_docente_eletronica
+ - utter_default

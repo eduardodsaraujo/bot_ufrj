@@ -3,32 +3,72 @@
     "common_examples": [
       {
         "text": "Oi",
-        "intent": "greet",
+        "intent": "saudacao",
         "entities": []
       },
       {
         "text": "Oi, tudo bem?",
-        "intent": "greet",
+        "intent": "saudacao",
         "entities": []
       },
       {
         "text": "Olá",
-        "intent": "greet",
+        "intent": "saudacao",
         "entities": []
       },
       {
-        "text": "Olá amigo",
-        "intent": "greet",
+        "text": "OK",
+        "intent": "entendimento",
+        "entities": []
+      },
+      {
+        "text": "Entendi",
+        "intent": "entendimento",
+        "entities": []
+      },
+      {
+        "text": "Certo",
+        "intent": "entendimento",
+        "entities": []
+      },
+      {
+        "text": "Burro",
+        "intent": "insulto",
+        "entities": []
+      },
+      {
+        "text": "Babaca",
+        "intent": "insulto",
+        "entities": []
+      },
+      {
+        "text": "Idiota",
+        "intent": "insulto",
         "entities": []
       },
       {
         "text": "Tchau",
-        "intent": "goodbye",
+        "intent": "despedida",
         "entities": []
       },
       {
         "text": "Adeus",
-        "intent": "goodbye",
+        "intent": "despedida",
+        "entities": []
+      },
+      {
+        "text": "Obrigado",
+        "intent": "agradecimento",
+        "entities": []
+      },
+      {
+        "text": "Obrigado por tudo",
+        "intent": "agradecimento",
+        "entities": []
+      },
+      {
+        "text": "Muito obrigado",
+        "intent": "agradecimento",
         "entities": []
       },
       {
@@ -73,17 +113,17 @@
       },
       {
         "text": "Beleza?",
-        "intent": "greet",
+        "intent": "saudacao",
         "entities": []
       },
       {
         "text": "Fala Ai",
-        "intent": "greet",
+        "intent": "saudacao",
         "entities": []
       },
       {
         "text": "Coe",
-        "intent": "greet",
+        "intent": "saudacao",
         "entities": []
       },
       {

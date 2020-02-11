@@ -1,13 +1,20 @@
 language: "pt"
 
 pipeline:
-- name: "intent_featurizer_count_vectors"
-  "strip_accents": "ascii" 
-
-- name: "intent_classifier_tensorflow_embedding"
-  intent_tokenization_flag: true
-
+    - name: "WhitespaceTokenizer"
+    - name: "EntitySynonymMapper"
+    - name: "CountVectorsFeaturizer"
+    - name: "CountVectorsFeaturizer"
+      analyzer: "char_wb"
+      min_ngram: 1
+      max_ngram: 4
+    - name: "EmbeddingIntentClassifier"
+      
 policies:
+  - name: "FallbackPolicy"
+    nlu_threshold: 0.7
+    core_threshold: 0.7
+    fallback_action_name: "utter_default"
   - name: MemoizationPolicy
   - name: KerasPolicy
   - name: MappingPolicy

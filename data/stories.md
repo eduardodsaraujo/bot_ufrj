@@ -1,25 +1,29 @@
 ## Generated Story 3320800183399695936
-* greet
-    - utter_greet
+* saudacao
+    - utter_saudacao
 ## Generated Story -5745852718310366287
-* greet
-    - utter_greet
-* goodbye
-    - utter_goodbye
+* saudacao
+    - utter_saudacao
+* despedida
+    - utter_despedida_precoce
 
 ## Generated Story -8098638445229873162
-* goodbye
-    - utter_goodbye
+* despedida
+    - utter_despedida
 
 ## Generated Story 8216125611475266048
 * apresentacao
     - utter_apresentacao
     - action_restart
 
-## fallback story
-* out_of_scope
-  - action_default_fallback
-  - action_restart
+## Generated Story 8216125611475266049
+* agradecimento
+    - utter_agradecimento
+    - action_restart
+	
+## Generated Story -8098638445229873165
+* entendimento
+    - utter_entendimento
 
 ## Generated Story -3665632420898924282
 * como_trancar_matricula
