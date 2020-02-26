@@ -1,0 +1,68 @@
+2020-02-23 09:43:51,427 [ERROR]  Experienced exception while trying to serve
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\lib\site-packages\sanic\app.py", line 1096, in run
+    serve(**server_settings)
+  File "c:\programdata\anaconda3\lib\site-packages\sanic\server.py", line 770, in serve
+    loop.run_forever()
+  File "c:\programdata\anaconda3\lib\asyncio\base_events.py", line 438, in run_forever
+    self._run_once()
+  File "c:\programdata\anaconda3\lib\asyncio\base_events.py", line 1415, in _run_once
+    event_list = self._selector.select(timeout)
+  File "c:\programdata\anaconda3\lib\selectors.py", line 323, in select
+    r, w, _ = self._select(self._readers, self._writers, [], timeout)
+  File "c:\programdata\anaconda3\lib\selectors.py", line 314, in _select
+    r, w, x = select.select(r, w, w, timeout)
+  File "c:\programdata\anaconda3\lib\site-packages\engineio\client.py", line 41, in signal_handler
+    return original_signal_handler(sig, frame)
+KeyboardInterrupt
+2020-02-23 10:20:21,175 [ERROR]  Experienced exception while trying to serve
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\lib\site-packages\sanic\app.py", line 1096, in run
+    serve(**server_settings)
+  File "c:\programdata\anaconda3\lib\site-packages\sanic\server.py", line 770, in serve
+    loop.run_forever()
+  File "c:\programdata\anaconda3\lib\asyncio\base_events.py", line 438, in run_forever
+    self._run_once()
+  File "c:\programdata\anaconda3\lib\asyncio\base_events.py", line 1415, in _run_once
+    event_list = self._selector.select(timeout)
+  File "c:\programdata\anaconda3\lib\selectors.py", line 323, in select
+    r, w, _ = self._select(self._readers, self._writers, [], timeout)
+  File "c:\programdata\anaconda3\lib\selectors.py", line 314, in _select
+    r, w, x = select.select(r, w, w, timeout)
+  File "c:\programdata\anaconda3\lib\site-packages\engineio\client.py", line 41, in signal_handler
+    return original_signal_handler(sig, frame)
+KeyboardInterrupt
+2020-02-23 11:27:20,766 [ERROR]  Unable to start server
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\lib\asyncio\base_events.py", line 1062, in create_server
+    sock.bind(sa)
+OSError: [WinError 10048] Normalmente é permitida apenas uma utilização de cada endereço de soquete (protocolo/endereço de rede/porta)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\lib\site-packages\sanic\server.py", line 745, in serve
+    http_server = loop.run_until_complete(server_coroutine)
+  File "c:\programdata\anaconda3\lib\asyncio\base_events.py", line 484, in run_until_complete
+    return future.result()
+  File "c:\programdata\anaconda3\lib\asyncio\base_events.py", line 1066, in create_server
+    % (sa, err.strerror.lower()))
+OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 5005): normalmente é permitida apenas uma utilização de cada endereço de soquete (protocolo/endereço de rede/porta)
+2020-02-23 11:40:11,084 [ERROR]  Transport closed @ ('127.0.0.1', 53346) and exception experienced during error handling
+2020-02-23 22:36:08,711 [ERROR]  Experienced exception while trying to serve
+Traceback (most recent call last):
+  File "c:\programdata\anaconda3\lib\site-packages\sanic\app.py", line 1096, in run
+    serve(**server_settings)
+  File "c:\programdata\anaconda3\lib\site-packages\sanic\server.py", line 770, in serve
+    loop.run_forever()
+  File "c:\programdata\anaconda3\lib\asyncio\base_events.py", line 438, in run_forever
+    self._run_once()
+  File "c:\programdata\anaconda3\lib\asyncio\base_events.py", line 1415, in _run_once
+    event_list = self._selector.select(timeout)
+  File "c:\programdata\anaconda3\lib\selectors.py", line 323, in select
+    r, w, _ = self._select(self._readers, self._writers, [], timeout)
+  File "c:\programdata\anaconda3\lib\selectors.py", line 314, in _select
+    r, w, x = select.select(r, w, w, timeout)
+  File "c:\programdata\anaconda3\lib\site-packages\engineio\client.py", line 41, in signal_handler
+    return original_signal_handler(sig, frame)
+KeyboardInterrupt

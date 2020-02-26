@@ -1,4 +1,5 @@
 intents:
+ - out_of_scope
  - saudacao
  - despedida
  - despedida_precoce
@@ -53,6 +54,8 @@ intents:
  
 
 templates:
+  utter_ask_rephrase:
+    - text: 'Certo, você poderia tentar reformular a pergunta?'
   utter_saudacao:
     - text: 'Olá, em que posso ajudar?'
   utter_despedida:
@@ -65,13 +68,15 @@ templates:
     - text: 'De nada.'
     - text: 'Por nada.'
     - text: 'Estou à disposição.'
+  utter_entendimento:
+    - text: 'Ótimo!'
+    - text: 'Perfeito!'
   utter_insulto:
     - text: 'Isso não é legal.'
     - text: 'Por favor, sejamos educados.'
   utter_default:
-    - text: 'Desculpe, eu não entendi, talvez você pudesse refazer a sua pergunta.'
+    - text: 'Desculpe, eu não entendi, talvez eu ainda não saiba muito sobre esse assunto.'
     - text: 'Desculpe, mas não compreendi.'
-    - text: 'Por gentileza, pode reformular sua pergunta e/ou verificar erros de digitação.'
   utter_apresentacao:
     - text: 'Meu nome é R.U.R. Sou um robô de auxílio da Poli/UFRJ.'
   utter_como_trancar_matricula:
@@ -211,4 +216,6 @@ actions:
  - utter_quem_pode_orientar
  - utter_trancamento_disciplinas
  - utter_corpo_docente_eletronica
+ - action_default_ask_affirmation
  - utter_default
+ - utter_ask_rephrase

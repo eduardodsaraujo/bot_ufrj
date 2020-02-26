@@ -11,10 +11,12 @@ pipeline:
     - name: "EmbeddingIntentClassifier"
       
 policies:
-  - name: "FallbackPolicy"
+  - name: TwoStageFallbackPolicy
     nlu_threshold: 0.7
-    core_threshold: 0.7
-    fallback_action_name: "utter_default"
+    core_threshold: 0.3
+    fallback_nlu_action_name: "utter_default"
+    fallback_core_action_name: "action_default_ask_affirmation"
+    deny_suggestion_intent_name: "out_of_scope"
   - name: MemoizationPolicy
-  - name: KerasPolicy
   - name: MappingPolicy
+  - name: KerasPolicy
