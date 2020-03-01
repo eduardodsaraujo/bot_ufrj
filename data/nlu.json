@@ -22,6 +22,11 @@
         "entities": []
       },
       {
+        "text": "hmmm",
+        "intent": "entendimento",
+        "entities": []
+      },
+      {
         "text": "Entendi",
         "intent": "entendimento",
         "entities": []

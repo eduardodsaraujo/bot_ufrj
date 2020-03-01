@@ -56,9 +56,6 @@ class ActionDefaultAskAffirmation(Action):
                 }
             )
 
-        # /out_of_scope is a retrieval intent
-        # you cannot send rasa the '/out_of_scope' intent
-        # instead, you can send one of the sentences that it will map onto the response
         buttons.append(
             {
                 "title": "alguma outra coisa",

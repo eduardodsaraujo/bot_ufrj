@@ -88,7 +88,7 @@ templates:
   utter_proposta_projeto_graduacao:
     - text: 'O modelo de proposta de Projeto de Graduação está disponível em: https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/modelos-de-documentos/'
   utter_pre_requisito_projeto_final:
-    - text: 'Os procedimentos que antes da defesa de PdG estão em https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/norma/'
+    - text: 'Os procedimentos anteriores a defesa de PdG estão em https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/norma/'
   utter_normas_abnt:
     - text: 'As normas ABNT estão aqui: http://www.abntcolecao.com.br/UFRJ/    . Porém o material só fica disponível a partir de um computador de dentro da UFRJ.'
   utter_procurar_coordenador:
@@ -118,7 +118,7 @@ templates:
   utter_definir_banca_projeto:
     - text: 'As informações sobre pedido de aprovação de banca estão disponíveis na norma de Projeto de Graduação: https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/norma/'
   utter_roteiro_projeto_final:
-    - text: 'Os procedimentos que antes da defesa de PdG estão em https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/norma/'
+    - text: 'Os procedimentos anteriores a defesa de PdG estão em https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/norma/'
   utter_pre_requisito_disciplina:
     - text: 'Informações sobre pré-requisitos devem ser obtidas no SIGA: http://graduacao.ufrj.br/index.php/ingresso-na-ufrj-mainmenu-81/74-siga/siga/164-siga'
   utter_ementa_disciplinas:
@@ -146,7 +146,7 @@ templates:
   utter_comissao_projeto_final:
     - text: 'Busque algum membro da Comissão de PdG: https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/comissao/'
   utter_antes_defesa_projeto_final:
-    - text: 'Os procedimentos que antes da defesa de PdG estão em https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/norma/'
+    - text: 'Os procedimentos anteriores da defesa de PdG estão em https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/norma/'
   utter_recomendacao_professor:
     - text: 'Procure seu coordenador para obter este tipo de informação.'
   utter_creditos_disciplina:
@@ -158,7 +158,7 @@ templates:
   utter_inscricao_disciplina:
     - text: 'A inscrição de disciplinas é feita através do SIGA: https://intranet.ufrj.br/'
   utter_fazer_antes_projeto_graduacao:
-    - text: 'Os procedimentos que antes da defesa de PdG estão em https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/norma/'
+    - text: 'Os procedimentos anteriores da defesa de PdG estão em https://www.del.ufrj.br/atividades/graduacao/eletronica-e-computacao/projetos-finais/norma/'
   utter_quem_pode_orientar:
     - text: 'Qualquer professor(a) do Departamento pode ser orientador(a) de Projeto de Graduação. Se você está sendo orientado(a) por um(a) professor(a) externo(a) ao Departamento, então existem duas linhas de ação: (1) o(a) orientador(a) externo(a) deve ter lecionado ao menos 01 disciplina no Departamento nos ultimos 2 semestres, e neste caso OK; (2) a orientação será feita pelo(a) orientador(a) externo(a) e obrigatoriamente com um co-orientador(a) do Departamento.'
   utter_trancamento_disciplinas:

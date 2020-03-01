@@ -2,21 +2,20 @@ language: "pt"
 
 pipeline:
     - name: "WhitespaceTokenizer"
-    - name: "EntitySynonymMapper"
+      case_sensitive: false
     - name: "CountVectorsFeaturizer"
     - name: "CountVectorsFeaturizer"
       analyzer: "char_wb"
       min_ngram: 1
       max_ngram: 4
     - name: "EmbeddingIntentClassifier"
+      random_seed: 1
       
 policies:
+  - name: KerasPolicy
+  - name: MappingPolicy
   - name: TwoStageFallbackPolicy
-    nlu_threshold: 0.7
-    core_threshold: 0.3
+    nlu_threshold: 0.85
     fallback_nlu_action_name: "utter_default"
     fallback_core_action_name: "action_default_ask_affirmation"
     deny_suggestion_intent_name: "out_of_scope"
-  - name: MemoizationPolicy
-  - name: MappingPolicy
-  - name: KerasPolicy
