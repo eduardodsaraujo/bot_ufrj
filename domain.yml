@@ -75,8 +75,8 @@ templates:
     - text: 'Isso não é legal.'
     - text: 'Por favor, sejamos educados.'
   utter_default:
-    - text: 'Desculpe, eu não entendi, talvez eu ainda não saiba muito sobre esse assunto.'
-    - text: 'Desculpe, mas não compreendi.'
+    - text: 'Desculpa, eu não entendi, talvez eu ainda não saiba muito sobre esse assunto.'
+    - text: 'Desculpa, mas não compreendi.'
   utter_apresentacao:
     - text: 'Meu nome é R.U.R. Sou um robô de auxílio da Poli/UFRJ.'
   utter_como_trancar_matricula:
